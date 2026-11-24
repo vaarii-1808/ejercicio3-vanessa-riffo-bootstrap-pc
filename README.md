@@ -1,82 +1,53 @@
-# Ejercicio 2 – Formulario de Registro de Clientes
+# Ejercicio 3 – Bootstrap y Firebase
 
 ## Descripción del proyecto
 
-Aplicación web desarrollada con React que permite registrar clientes mediante un formulario. Los datos ingresados son validados y almacenados en Firebase Firestore.
+Proyecto académico desarrollado en el marco de la asignatura **Programación de Componentes de IPLACEX**.
+
+La aplicación utiliza React, Bootstrap y Firebase para implementar funcionalidades de gestión de información, autenticación y almacenamiento.
 
 ## Tecnologías utilizadas
 
 - React
 - JavaScript
 - Vite
+- Bootstrap
 - CSS
-- Firebase
+- Firebase Authentication
 - Cloud Firestore
-- Simple React Validator
+- Firebase Storage
+- Apache Cordova
+- Android Studio
+- Gradle
 
-## Funcionalidades
+## Base de datos y servicios
 
-El formulario permite ingresar los siguientes datos:
+El proyecto utiliza Firebase para la autenticación de usuarios, almacenamiento de información mediante Firestore y gestión de archivos mediante Firebase Storage.
 
-- Nombre completo.
-- Correo electrónico.
-- Teléfono.
-- Fecha de nacimiento.
-- Tipo de cliente (Nuevo, Frecuente o Premium).
-- Comentarios.
+## Aplicación móvil
 
-### Validaciones
+Se utiliza Apache Cordova para preparar la aplicación y permitir su ejecución en dispositivos Android mediante Android Studio y Gradle.
 
-Se utiliza la biblioteca `simple-react-validator` para validar los campos obligatorios y comprobar que el correo electrónico tenga un formato válido.
+## Instalación del proyecto
 
-El sistema muestra mensajes de error cuando los datos ingresados no cumplen las condiciones establecidas.
-
-### Base de datos
-
-La aplicación se conecta con Firebase Firestore para almacenar los registros de clientes en la colección `clientes`.
-
-Al guardar un registro correctamente, se muestra un mensaje de confirmación en pantalla.
-
-## Instalación y ejecución
-
-1. Clonar o descargar el repositorio.
-2. Abrir la carpeta del proyecto en Visual Studio Code.
-3. Instalar las dependencias:
+Instalar las dependencias:
 
 ```bash
 npm install
 ```
 
-4. Iniciar el servidor de desarrollo:
+Ejecutar el proyecto localmente:
 
 ```bash
 npm run dev
 ```
 
-5. Abrir en el navegador la dirección local que entrega Vite.
-
-## Compilación para producción
-
-Para generar la versión de producción, ejecutar:
-
-```bash
-npm run build
-```
-
-Los archivos generados se almacenan en la carpeta `dist`.
-
-## Configuración de Firebase
-
-La conexión con Firebase se encuentra configurada en:
-
-`src/firebase/config.js`
-
-La aplicación utiliza Cloud Firestore para guardar los datos de los clientes.
-
-Para ejecutar el proyecto con otra configuración, se debe utilizar una aplicación web de Firebase y configurar sus credenciales correspondientes.
-
 ## Autora
 
-Vanessa Riffo
+**Vanessa Macarena Riffo Rojas**
 
-**Proyecto:** Programación de Componentes – exa-PC-Vanessa-Riffo ejercicio2-formulario
+**Institución:** IPLACEX
+
+**Asignatura:** Programación de Componentes
+
+**Trabajo:** Ejercicio 3 – Bootstrap y Firebase
